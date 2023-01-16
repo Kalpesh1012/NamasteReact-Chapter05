@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(119, 146, 140);
+  height: 100px;
+  width: 100%;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+}
+.list > li {
+  padding: 10px;
+  color: yellow;
+}
+.card {
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+.card > img {
+  width: 100%;
+}
+.body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.search-conatiner {
+  display: inline;
+}
+.search-input {
+  width: 1400px;
+
+  border-color: rebeccapurple;
+}
+.search-btn {
+}
